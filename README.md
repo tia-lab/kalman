@@ -36,6 +36,8 @@ Example results (from `benches/BENCHES.md`, Intel Xeon W-2295, Ubuntu 22.04.5, r
 | local level | 10,000 | 102.30 µs / 102.64 µs / 103.02 µs |         10.26 |
 | local trend | 10,000 | 185.49 µs / 185.76 µs / 186.07 µs |         18.58 |
 
+`Med ns/sample` is computed as `(median time) / n` and is a rough per-observation cost for that benchmark. It depends on CPU, OS, Rust version, and compiler settings.
+
 Full details (machine, date, and notes): `benches/BENCHES.md`.
 
 ## Usage

@@ -2,6 +2,10 @@
 name = "kalman"
 version = "0.1.0"
 edition = "2024"
+authors = ["Tia lab"]
+description = "Minimal Kalman filters for f64 time series."
+readme = "README.md"
+license-file = "LICENSE"
 
 [dependencies]
 serde = "1.0.228"
