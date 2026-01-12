@@ -1,0 +1,58 @@
+
+running 7 tests
+test tests::test_kalman::test_kalman_local_level_constant_signal_converges ... ignored
+test tests::test_kalman::test_kalman_local_level_determinism ... ignored
+test tests::test_kalman::test_kalman_local_level_failure_contracts ... ignored
+test tests::test_kalman::test_kalman_local_level_numerical_stability_large_offset ... ignored
+test tests::test_kalman::test_kalman_local_linear_trend_failure_contracts ... ignored
+test tests::test_kalman::test_kalman_local_linear_trend_tracks_perfect_line_low_noise ... ignored
+test tests::test_kalman::test_kalman_no_panic_on_error_paths ... ignored
+
+test result: ok. 0 passed; 0 failed; 7 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+signal_kalman_local_level_ws_n100
+                        time:   [1.0325 µs 1.0363 µs 1.0410 µs]
+                        change: [+1.6946% +2.2005% +2.7642%] (p = 0.00 < 0.05)
+                        Performance has regressed.
+Found 8 outliers among 100 measurements (8.00%)
+  1 (1.00%) high mild
+  7 (7.00%) high severe
+
+signal_kalman_local_trend_ws_n100
+                        time:   [1.9037 µs 1.9123 µs 1.9263 µs]
+                        change: [+0.9749% +2.9237% +6.2725%] (p = 0.04 < 0.05)
+                        Change within noise threshold.
+Found 5 outliers among 100 measurements (5.00%)
+  3 (3.00%) high mild
+  2 (2.00%) high severe
+
+signal_kalman_local_level_ws_n1000
+                        time:   [10.199 µs 10.220 µs 10.242 µs]
+                        change: [+1.9853% +2.3533% +2.6869%] (p = 0.00 < 0.05)
+                        Performance has regressed.
+Found 4 outliers among 100 measurements (4.00%)
+  4 (4.00%) high mild
+
+signal_kalman_local_trend_ws_n1000
+                        time:   [18.866 µs 18.911 µs 18.958 µs]
+                        change: [+2.5531% +2.8704% +3.1736%] (p = 0.00 < 0.05)
+                        Performance has regressed.
+Found 5 outliers among 100 measurements (5.00%)
+  3 (3.00%) low mild
+  1 (1.00%) high mild
+  1 (1.00%) high severe
+
+signal_kalman_local_level_ws_n10000
+                        time:   [102.30 µs 102.64 µs 103.02 µs]
+                        change: [+3.5391% +4.0477% +4.5757%] (p = 0.00 < 0.05)
+                        Performance has regressed.
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high severe
+
+signal_kalman_local_trend_ws_n10000
+                        time:   [185.49 µs 185.76 µs 186.07 µs]
+                        change: [+0.5349% +0.8353% +1.1324%] (p = 0.00 < 0.05)
+                        Change within noise threshold.
+Found 5 outliers among 100 measurements (5.00%)
+  5 (5.00%) high severe
+

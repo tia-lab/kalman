@@ -1,0 +1,42 @@
+
+running 1 test
+test tests::test_kalman::test_kalman_local_level_constant_signal_converges ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 6 filtered out; finished in 0.00s
+
+
+running 1 test
+test tests::test_kalman::test_kalman_local_level_determinism ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 6 filtered out; finished in 0.00s
+
+
+running 1 test
+test tests::test_kalman::test_kalman_local_level_failure_contracts ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 6 filtered out; finished in 0.00s
+
+
+running 1 test
+test tests::test_kalman::test_kalman_local_level_numerical_stability_large_offset ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 6 filtered out; finished in 0.00s
+
+
+running 1 test
+test tests::test_kalman::test_kalman_local_linear_trend_failure_contracts ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 6 filtered out; finished in 0.00s
+
+
+running 1 test
+test tests::test_kalman::test_kalman_local_linear_trend_tracks_perfect_line_low_noise ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 6 filtered out; finished in 0.00s
+
+
+running 1 test
+test tests::test_kalman::test_kalman_no_panic_on_error_paths ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 6 filtered out; finished in 0.00s
+
